@@ -1,0 +1,9 @@
+i choosed "MapTiler Basic" style  from https://openmaptiles.org/styles/.
+
+
+github referece:
+https://github.com/openmaptiles/maptiler-basic-gl-style
+
+
+demo: 
+https://www.maptiler.com/maps/#basic//vector/1/0/0=&style=basic&mode=2d&position=14.67/35.69942/51.39101

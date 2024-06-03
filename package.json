@@ -1,0 +1,12 @@
+{
+  "name": "01-mini-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tileserver-gl --file ./01-tile-server/02-map-files/osm-2020-02-10-v3.11_iran_tehran.mbtiles --silent --gzip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

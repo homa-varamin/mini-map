@@ -1,0 +1,22 @@
+01- 
+npm install -g tileserver-gl
+
+02-
+tileserver-gl --file osm-2020-02-10-v3.11_iran_tehran.mbtiles
+
+
+options:
+
+tileserver-gl --silent
+Run the server in silent mode, suppressing logs.
+
+
+tileserver-gl --mbtiles path/to/tiles.mbtiles
+Path to a specific MBTiles file to serve.
+
+
+tileserver-gl --proxy http://proxy.example.com
+Set up a proxy for requests.
+
+Enable Gzip compression for the responses.
+tileserver-gl --gzip

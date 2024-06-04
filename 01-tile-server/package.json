@@ -1,0 +1,11 @@
+{
+  "name": "mini-map",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tileserver-gl --file ./02-map-files/osm-2020-02-10-v3.11_iran_tehran.mbtiles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -6,6 +6,7 @@ tileserver-gl --file osm-2020-02-10-v3.11_iran_tehran.mbtiles
 
 
 options:
+reference: https://tileserver.readthedocs.io/en/latest/usage.html
 
 tileserver-gl --silent
 Run the server in silent mode, suppressing logs.

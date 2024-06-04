@@ -1,0 +1,7 @@
+{
+  "styles": {
+    "basic": {
+      "style": "./01-styles/03-custom-based-on-MapTiler-Basic/style.json"
+    }
+  }
+}

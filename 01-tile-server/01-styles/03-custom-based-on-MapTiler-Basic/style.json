@@ -1,9 +1,14 @@
 {
   "version": 8,
-  "name": "MiniMap",
+  "name": "MiniMap.ir",
   "metadata": { "openmaptiles:version": "3.x" },
-  "sources": { "openmaptiles": { "type": "vector", "url": "http://localhost:8080/styles/basic/style.json" } },
-  "glyphs": "http://localhost:8080/fonts/{fontstack}/{range}.pbf",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "mbtiles://{osm-2020-02-10-v3.11_iran_tehran.mbtiles}"
+    }
+  },
+  "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

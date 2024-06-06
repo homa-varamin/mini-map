@@ -3,11 +3,12 @@
     "paths": {
       "root": "./",
       "fonts": "./03-fonts/",
-      "mbtiles": "./02-map-files"
+      "mbtiles": "./02-map-files/"
     },
     "port": 8080,
     "gzip": true
   },
+  "serveAllFonts": true,
   "styles": {
     "custom": {
       "style": "./01-styles/03-custom-based-on-MapTiler-Basic/style.json"

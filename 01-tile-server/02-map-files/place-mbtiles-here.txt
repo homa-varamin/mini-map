@@ -1,0 +1,3 @@
+please place all your mbtiles here.
+you can download mbtiles from:
+https://data.maptiler.com/downloads/planet/

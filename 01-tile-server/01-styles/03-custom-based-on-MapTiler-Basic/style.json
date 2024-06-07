@@ -249,7 +249,7 @@
       "minzoom": 17,
       "filter": ["==", "$type", "Point"],
       "layout": {
-        "text-field": "{housenumber}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-size": 10
       },
@@ -725,7 +725,7 @@
       "layout": {
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0.5],
@@ -749,7 +749,7 @@
       "layout": {
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0.5],
@@ -772,7 +772,7 @@
       "filter": ["==", "$type", "LineString"],
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-rotation-alignment": "map",
@@ -801,7 +801,7 @@
       "filter": ["all", ["==", "$type", "Point"], ["!in", "class", "city", "state", "country", "continent"]],
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 6,
         "text-size": {
@@ -827,7 +827,7 @@
       "maxzoom": 16,
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "city"]],
       "layout": {
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 10,
         "text-size": {
@@ -852,7 +852,7 @@
       "maxzoom": 12,
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "country"], ["!has", "iso_a2"]],
       "layout": {
-        "text-field": "{name:latin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Regular"],
         "text-max-width": 10,
         "text-size": {
@@ -878,7 +878,7 @@
       "maxzoom": 12,
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "country"], ["has", "iso_a2"]],
       "layout": {
-        "text-field": "{name:latin}",
+        "text-field": "{name:fa}",
         "text-font": ["Noto Sans Bold"],
         "text-max-width": 10,
         "text-size": {

@@ -1,0 +1,12 @@
+01- change all text-fields to :
+"text-field": "{name:fa}",
+
+
+02- change source and glyphs location:
+"sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "mbtiles://{osm-2020-02-10-v3.11_asia_iran.mbtiles}"
+    }
+  },
+  "glyphs": "{fontstack}/{range}.pbf",

@@ -2,13 +2,18 @@
   "options": {
     "paths": {
       "root": "./",
-      "mbtiles": "./02-map-files/"
+      "mbtiles": "./02-map-files/",
+      "fonts": "./03-fonts/"
     },
     "port": 8080,
     "gzip": true
   },
+  "serveAllFonts": true,
   "styles": {
-    "custom": {
+    "custom-mapbox": {
+      "style": "./01-styles/05-custom-mapbox/style.json"
+    },
+    "custom-maptiler": {
       "style": "./01-styles/03-custom-based-on-MapTiler-Basic/style.json"
     }
   }

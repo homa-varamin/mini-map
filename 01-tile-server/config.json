@@ -10,9 +10,6 @@
   },
   "serveAllFonts": true,
   "styles": {
-    "custom-mapbox": {
-      "style": "./01-styles/05-custom-mapbox/style.json"
-    },
     "custom-maptiler": {
       "style": "./01-styles/03-custom-based-on-MapTiler-Basic/style.json"
     }

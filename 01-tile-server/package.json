@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tileserver-gl"
+    "start": "tileserver-gl",
+    "start2":"tileserver-gl --file ./02-map-files/osm-2020-02-10-v3.11_asia_iran.mbtiles"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "tileserver-gl": "4.11.1"
-  }
+  "license": "MIT"
 }

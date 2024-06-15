@@ -11,7 +11,7 @@
   "serveAllFonts": true,
   "styles": {
     "custom-maptiler": {
-      "style": "./01-styles/03-custom-based-on-MapTiler-Basic/style.json"
+      "style": "./01-styles/basic.json"
     }
   }
 }

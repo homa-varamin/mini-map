@@ -2,8 +2,7 @@
   "options": {
     "paths": {
       "root": "./",
-      "mbtiles": "./02-map-files/",
-      "fonts": "./03-fonts/"
+      "mbtiles": "./02-map-files/"
     },
     "port": 8080,
     "gzip": true

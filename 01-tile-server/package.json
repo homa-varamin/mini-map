@@ -7,7 +7,7 @@
     "start2": "tileserver-gl --file ./02-map-files/osm-2020-02-10-v3.11_asia_iran.mbtiles",
     "install": "npm i -g tileserver-gl",
     "minimap": "tileserver-gl --file ./02-map-files/osm-2020-02-10-v3.11_germany_hamburg.mbtiles --port 16100",
-    "minimap2": "tileserver-gl --file ./02-map-files/maptiler-osm-2020-02-10-v3.11-europe_germany.mbtiles --port 16100"
+    "minimap2": "tileserver-gl --file ./02-map-files/maptiler-osm-2020-02-10-v3.11-germany_hamburg.mbtiles --port 16100"
   },
   "keywords": [],
   "author": "",

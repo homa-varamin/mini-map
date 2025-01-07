@@ -1,0 +1,32 @@
+"Noto Sans Regular"
+
+"C:\Users\amirh\AppData\Roaming\nvm\v20.11.0\node_modules\tileserver-gl\node_modules\tileserver-gl-styles\fonts\Noto Sans Regular"
+
+
+update style.json
+"glyphs": "http://your-tileserver-domain/fonts/IranSans/{fontstack}/{range}.pbf",
+
+
+1. Convert IranSans WOFF2 to PBF
+Install glyphhanger and ttf2pbf
+
+npm install -g glyphhanger
+npm install -g @mapbox/ttf2pbf
+
+Use a font conversion tool to convert your .woff2 file to .ttf
+
+Generate PBF Files
+Once you have the .ttf file, run the following commands:
+
+glyphhanger --subset=IranSans.ttf --formats=ttf --US_ASCII
+
+
+this generates subset .ttf files containing only the required glyphs.
+Convert the .ttf files to .pbf:
+
+ttf2pbf IranSans-subset.ttf 0-255.pbf
+ttf2pbf IranSans-subset.ttf 256-511.pbf
+# Repeat for other ranges as needed.
+
+
+2. Organize the Generated PBF Files
